@@ -4,44 +4,36 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Freedom Code — 30-Day Transformation | Dylan Ewing</title>
-<meta name="description" content="You're not broken. You're programmed. Freedom Code is the 30-day protocol that rewires your survival pattern. $47.">
+<meta name="description" content="You're not broken. You're programmed. The 30-day protocol that rewires your survival pattern. Built by a guy who literally died and came back with the answer. $47.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
-:root{--bg:#ffffff;--bg2:#f7f5f2;--bg3:#eeeae4;--txt:#1a1714;--dim:#6b6560;--mute:#9a9590;--gold:#b8943c;--goldg:rgba(184,148,60,.08);--goldh:#a67d30;--goldb:rgba(184,148,60,.2);--fixer:#c4543a;--busy:#c49a3a;--quiet:#5a7fa5;--pleaser:#5aa57f;--white:#fff}
+:root{--bg:#ffffff;--bg2:#f7f5f2;--bg3:#eeeae4;--txt:#1a1714;--dim:#6b6560;--mute:#9a9590;--gold:#b8943c;--goldg:rgba(184,148,60,.08);--goldh:#a67d30;--goldb:rgba(184,148,60,.2);--fixer:#c4543a;--busy:#c49a3a;--quiet:#5a7fa5;--pleaser:#5aa57f}
 html{scroll-behavior:smooth}
 body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--txt);line-height:1.7;-webkit-font-smoothing:antialiased}
 .wrap{max-width:720px;margin:0 auto;padding:0 24px}
 h2{font-family:'DM Serif Display',serif;font-size:clamp(26px,5vw,36px);line-height:1.2;margin-bottom:16px}
 h3{font-family:'DM Serif Display',serif;font-size:clamp(20px,4vw,26px);line-height:1.25;margin-bottom:12px}
-.gold{color:var(--gold)}
 .divider{width:48px;height:2px;background:var(--gold);opacity:.35;margin:48px auto}
 .section{padding:48px 0}
 .btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;background:var(--gold);color:#fff;font-family:'DM Sans',sans-serif;font-size:17px;font-weight:700;padding:18px 44px;border:none;border-radius:8px;cursor:pointer;text-decoration:none;transition:all .3s;width:100%;max-width:440px}
 .btn:hover{background:var(--goldh);transform:translateY(-2px);box-shadow:0 10px 36px rgba(184,148,60,.22)}
 .btn-note{display:block;text-align:center;font-size:13px;color:var(--mute);margin-top:14px}
 .cta-wrap{text-align:center;margin:32px 0}
+.p{font-size:16px;color:var(--dim);line-height:1.85;margin-bottom:16px}
+.p-bold{font-size:16px;color:var(--txt);line-height:1.85;font-weight:600;margin-bottom:16px}
+.p-sm{font-size:14px;color:var(--dim);line-height:1.7;margin-bottom:12px}
 
 /* HERO */
-.hero{padding:80px 0 48px;text-align:center}
-.hero-badge{display:inline-block;font-size:11px;letter-spacing:2.5px;text-transform:uppercase;color:var(--gold);margin-bottom:24px}
-.hero h1{font-family:'DM Serif Display',serif;font-size:clamp(32px,7vw,52px);line-height:1.12;margin-bottom:20px}
+.hero{padding:72px 0 40px;text-align:center}
+.hero-counter{font-size:12px;color:var(--mute);letter-spacing:1px;margin-bottom:20px}
+.hero h1{font-family:'DM Serif Display',serif;font-size:clamp(32px,7vw,50px);line-height:1.12;margin-bottom:20px}
 .hero h1 em{font-style:italic;color:var(--gold)}
-.hero-sub{font-size:17px;color:var(--dim);max-width:540px;margin:0 auto 28px;line-height:1.8}
+.hero-sub{font-size:17px;color:var(--dim);max-width:560px;margin:0 auto 12px;line-height:1.8}
+.hero-sub2{font-size:15px;color:var(--mute);max-width:480px;margin:0 auto 28px}
 .hero-price{font-family:'DM Serif Display',serif;font-size:42px;color:var(--txt);font-weight:400;margin-bottom:6px}
 .hero-price-note{font-size:13px;color:var(--mute);margin-bottom:24px}
-
-/* ACRONYM */
-.acronym{display:flex;justify-content:center;gap:4px;flex-wrap:wrap;margin:0 auto;max-width:600px}
-.acr-card{background:var(--bg2);border:1.5px solid var(--goldb);border-radius:8px;padding:10px 6px;text-align:center;flex:1;min-width:70px;max-width:100px}
-.acr-letter{font-size:28px;font-weight:800;color:var(--gold);display:block;line-height:1.2}
-.acr-word{font-size:10px;font-weight:700;color:var(--dim);text-transform:uppercase;letter-spacing:.5px}
-
-/* CARDS */
-.card{background:var(--bg2);border:1px solid rgba(0,0,0,.06);border-radius:12px;padding:24px;margin-bottom:12px}
-.card h4{font-size:16px;font-weight:700;margin-bottom:6px}
-.card p{font-size:14px;color:var(--dim);line-height:1.7}
 
 /* TYPES GRID */
 .types{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:24px 0}
@@ -49,20 +41,22 @@ h3{font-family:'DM Serif Display',serif;font-size:clamp(20px,4vw,26px);line-heig
 .type-card h4{font-size:15px;font-weight:700;margin-bottom:2px}
 .type-card .response{font-size:11px;letter-spacing:1px;text-transform:uppercase;font-weight:700;margin-bottom:8px}
 .type-card p{font-size:13px;line-height:1.6}
-.t-fixer{background:rgba(196,84,58,.06);border-color:rgba(196,84,58,.2);color:var(--fixer)}
-.t-fixer p{color:var(--dim)}
-.t-busy{background:rgba(196,154,58,.06);border-color:rgba(196,154,58,.2);color:var(--busy)}
-.t-busy p{color:var(--dim)}
-.t-quiet{background:rgba(90,127,165,.06);border-color:rgba(90,127,165,.2);color:var(--quiet)}
-.t-quiet p{color:var(--dim)}
-.t-pleaser{background:rgba(90,165,127,.06);border-color:rgba(90,165,127,.2);color:var(--pleaser)}
-.t-pleaser p{color:var(--dim)}
+.t-fixer{background:rgba(196,84,58,.06);border-color:rgba(196,84,58,.2);color:var(--fixer)}.t-fixer p{color:var(--dim)}
+.t-busy{background:rgba(196,154,58,.06);border-color:rgba(196,154,58,.2);color:var(--busy)}.t-busy p{color:var(--dim)}
+.t-quiet{background:rgba(90,127,165,.06);border-color:rgba(90,127,165,.2);color:var(--quiet)}.t-quiet p{color:var(--dim)}
+.t-pleaser{background:rgba(90,165,127,.06);border-color:rgba(90,165,127,.2);color:var(--pleaser)}.t-pleaser p{color:var(--dim)}
 
 /* WEEK CARDS */
 .week{background:var(--bg2);border-radius:12px;padding:24px;margin-bottom:12px;border-left:4px solid var(--gold)}
 .week .label{font-size:11px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--gold);margin-bottom:6px}
 .week h4{font-size:16px;font-weight:700;margin-bottom:6px}
 .week p{font-size:14px;color:var(--dim);line-height:1.7}
+
+/* ACRONYM */
+.acronym{display:flex;justify-content:center;gap:4px;flex-wrap:wrap;margin:24px auto;max-width:600px}
+.acr-card{background:var(--bg2);border:1.5px solid var(--goldb);border-radius:8px;padding:10px 6px;text-align:center;flex:1;min-width:70px;max-width:100px}
+.acr-letter{font-size:26px;font-weight:800;color:var(--gold);display:block;line-height:1.2}
+.acr-word{font-size:10px;font-weight:700;color:var(--dim);text-transform:uppercase;letter-spacing:.5px}
 
 /* BEFORE/AFTER */
 .ba-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:24px 0}
@@ -71,24 +65,22 @@ h3{font-family:'DM Serif Display',serif;font-size:clamp(20px,4vw,26px);line-heig
 .ba-col ul{list-style:none;padding:0}
 .ba-col li{font-size:14px;line-height:1.6;padding:8px 0;border-bottom:1px solid rgba(0,0,0,.05)}
 .ba-col li:last-child{border:none}
-.ba-before{background:rgba(0,0,0,.03);border:1px solid rgba(0,0,0,.06)}
-.ba-before h4{color:var(--mute)}
-.ba-before li{color:var(--dim)}
-.ba-after{background:var(--goldg);border:1.5px solid var(--goldb)}
-.ba-after h4{color:var(--gold)}
-.ba-after li{color:var(--txt)}
+.ba-before{background:rgba(0,0,0,.03);border:1px solid rgba(0,0,0,.06)}.ba-before h4{color:var(--mute)}.ba-before li{color:var(--dim)}
+.ba-after{background:var(--goldg);border:1.5px solid var(--goldb)}.ba-after h4{color:var(--gold)}.ba-after li{color:var(--txt)}
 
 /* STORY */
 .story{background:var(--bg2);border-radius:16px;padding:36px 28px;margin:24px 0}
-.story p{font-size:15px;line-height:1.85;color:var(--dim);margin-bottom:16px}
+.story p{font-size:15px;line-height:1.9;color:var(--dim);margin-bottom:16px}
 .story p:last-child{margin-bottom:0}
 .story .sig{font-weight:700;color:var(--txt);font-style:italic}
+.story .dramatic{font-family:'DM Serif Display',serif;font-size:20px;color:var(--txt);letter-spacing:2px;text-align:center;padding:20px 0}
 
 /* VALUE STACK */
 .stack-item{display:flex;justify-content:space-between;align-items:center;padding:14px 0;border-bottom:1px solid rgba(0,0,0,.06)}
 .stack-item:last-child{border:none}
 .stack-item .name{font-size:15px;font-weight:500}
-.stack-item .val{font-size:14px;color:var(--mute);text-decoration:line-through}
+.stack-item .sub{font-size:12px;color:var(--mute);display:block}
+.stack-item .val{font-size:14px;color:var(--mute);text-decoration:line-through;white-space:nowrap}
 .stack-total{display:flex;justify-content:space-between;align-items:center;padding:16px 0;margin-top:8px;border-top:2px solid var(--gold)}
 .stack-total .name{font-size:16px;font-weight:700;color:var(--mute);text-decoration:line-through}
 .stack-total .price{font-family:'DM Serif Display',serif;font-size:36px;color:var(--gold)}
@@ -100,7 +92,16 @@ h3{font-family:'DM Serif Display',serif;font-size:clamp(20px,4vw,26px);line-heig
 .anchor-hl span{color:var(--gold);font-weight:700}
 
 /* QUOTE */
-.quote{background:var(--goldg);border-left:3px solid var(--gold);border-radius:0 12px 12px 0;padding:24px 28px;margin:24px 0;font-size:16px;line-height:1.8;font-style:italic;color:var(--txt)}
+.quote{background:var(--goldg);border-left:3px solid var(--gold);border-radius:0 12px 12px 0;padding:24px 28px;margin:24px 0;font-size:16px;line-height:1.85;font-style:italic;color:var(--txt)}
+
+/* BELIEFS */
+.belief{background:var(--bg2);border-radius:12px;padding:24px;margin-bottom:12px}
+.belief .objection{font-size:15px;font-weight:700;color:var(--txt);margin-bottom:8px}
+.belief .answer{font-size:14px;color:var(--dim);line-height:1.7}
+
+/* RESEARCH */
+.research-bar{padding:20px 24px;background:var(--bg2);border-radius:8px;font-size:12px;color:var(--mute);line-height:1.8;margin:24px 0;border-left:3px solid var(--gold)}
+.research-bar strong{color:var(--dim)}
 
 /* FAQ */
 .faq-item{border-bottom:1px solid rgba(0,0,0,.06);padding:20px 0}
@@ -110,40 +111,159 @@ h3{font-family:'DM Serif Display',serif;font-size:clamp(20px,4vw,26px);line-heig
 .faq-a{max-height:0;overflow:hidden;transition:max-height .3s ease;font-size:14px;color:var(--dim);line-height:1.7}
 .faq-item.open .faq-a{max-height:300px;padding-top:12px}
 
-/* RESEARCH */
-.research-bar{text-align:center;padding:20px;background:var(--bg2);border-radius:8px;font-size:12px;color:var(--mute);line-height:1.8}
+/* LADDER */
+.ladder{display:flex;flex-direction:column;gap:8px;margin:20px 0}
+.ladder-step{display:flex;align-items:center;gap:16px;padding:16px 20px;border-radius:10px;font-size:14px}
+.ladder-step .marker{width:28px;height:28px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:700;flex-shrink:0}
+.ladder-here{background:var(--goldg);border:2px solid var(--gold);font-weight:700;color:var(--txt)}
+.ladder-here .marker{background:var(--gold);color:#fff}
+.ladder-future{background:var(--bg2);border:1px solid rgba(0,0,0,.06);color:var(--dim)}
+.ladder-future .marker{background:var(--bg3);color:var(--mute)}
+
 .footer{text-align:center;padding:40px 0;font-size:12px;color:var(--mute)}
 .footer a{color:var(--gold);text-decoration:none}
 
 @media(max-width:640px){
-  .types{grid-template-columns:1fr}
-  .ba-grid{grid-template-columns:1fr}
-  .acronym{gap:3px}
-  .acr-card{min-width:42px;padding:8px 4px}
-  .acr-letter{font-size:22px}
-  .hero{padding:48px 0 32px}
+  .types,.ba-grid{grid-template-columns:1fr}
+  .acronym{gap:3px}.acr-card{min-width:42px;padding:8px 4px}.acr-letter{font-size:20px}
+  .hero{padding:48px 0 28px}
+  .story{padding:28px 20px}
 }
 </style>
 </head>
 <body>
-
 <div class="wrap">
 
 <!-- ═══ HERO ═══ -->
 <div class="hero">
-  <div class="hero-badge">30-Day Guided Protocol</div>
+  <div class="hero-counter" id="counter"></div>
   <h1>You're not broken.<br>You're <em>programmed.</em></h1>
-  <p class="hero-sub">The quiz showed you which survival pattern runs your life. This is the 30-day protocol that rewires it.</p>
+  <p class="hero-sub">There's a survival pattern running your nervous system. It was installed before age 7. It's still making your decisions.</p>
+  <p class="hero-sub2">Freedom Code is the 30-day protocol that rewires it. Built by a guy who literally died, left his body, came back, and figured out what everybody else is missing.</p>
   <div class="hero-price">$47</div>
   <div class="hero-price-note">One payment. Lifetime access. Start tomorrow morning.</div>
   <div class="cta-wrap">
-    <a href="https://link.thedylanewing.com/payment-link/69b165652b0a35cb24607fbb" class="btn" id="checkout">Get Freedom Code &mdash; $47 &rarr;</a>
-    <span class="btn-note">30-day money-back guarantee</span>
+    <a href="https://link.thedylanewing.com/payment-link/69b165652b0a35cb24607fbb" class="btn">Start Freedom Code &mdash; $47 &rarr;</a>
+    <span class="btn-note">30-day money-back guarantee. You either feel different or you get your money back.</span>
   </div>
 </div>
 
-<!-- ═══ FREEDOM ACRONYM ═══ -->
-<div class="section" style="padding-top:0">
+<!-- ═══ AUTHORITY BAR (moved up) ═══ -->
+<div class="research-bar">
+  <strong>Built on real science, not Instagram quotes.</strong> ACE Study &bull; Polyvagal Theory (Dr. Stephen Porges) &bull; Peter Levine's somatic work &bull; Monroe Institute Hemi-Sync (studied by the CIA) &bull; Neuroplasticity research &bull; Dr. Joe Dispenza &bull; Gateway Experience consciousness technology
+</div>
+
+<div class="divider"></div>
+
+<!-- ═══ THE PROBLEM ═══ -->
+<div class="section">
+  <h2>Here's what nobody tells you.</h2>
+  <p class="p">You already know something's off. You've probably read the books. Watched the videos. Maybe even tried therapy, meditation, journaling. And yeah, it helped. For a minute.</p>
+  <p class="p">Then you wake up Tuesday morning and you're right back in it. Same anxiety. Same loops. Same 3 AM thoughts. Same "why do I keep doing this."</p>
+  <p class="p">That's not a willpower problem. That's not laziness. That's your nervous system running a survival program it installed when you were a little kid.</p>
+  <p class="p-bold">Your body learned to survive. It never learned to stop surviving.</p>
+  <p class="p">And no amount of positive thinking is gonna override code that's been running since before you could spell your own name.</p>
+  <p class="p">You need a protocol. A daily one. Something that rewires the machine — not just the thoughts on top of it.</p>
+  <p class="p">That's what this is.</p>
+</div>
+
+<div class="divider"></div>
+
+<!-- ═══ 4 TYPES ═══ -->
+<div class="section">
+  <h2>The 4 Survival Patterns</h2>
+  <p class="p">Your brain picked one of these before age 7. It's been running the show ever since. Which one sounds like you?</p>
+  <div class="types">
+    <div class="type-card t-fixer">
+      <h4>The Fixer</h4>
+      <div class="response">Fight</div>
+      <p>You fix everyone. You can't sit still. You can't let go. You need to be needed — and you're exhausted.</p>
+    </div>
+    <div class="type-card t-busy">
+      <h4>The Busy One</h4>
+      <div class="response">Flight</div>
+      <p>You stay moving so you don't have to feel. Productivity is your painkiller. If you stop, everything catches up.</p>
+    </div>
+    <div class="type-card t-quiet">
+      <h4>The Quiet One</h4>
+      <div class="response">Freeze</div>
+      <p>People think you're calm. You're not calm. You're gone. You check out when things get real. You've been doing it so long you don't even notice.</p>
+    </div>
+    <div class="type-card t-pleaser">
+      <h4>The People Pleaser</h4>
+      <div class="response">Fawn</div>
+      <p>Everyone brings you their problems. Nobody asks about yours. You say yes when you mean no. And you've lost track of who you actually are.</p>
+    </div>
+  </div>
+  <p class="p" style="text-align:center;margin-top:16px"><strong>Don't know yours?</strong> <a href="https://thedylanewing.com" style="color:var(--gold);font-weight:600">Take the free 3-minute quiz &rarr;</a></p>
+</div>
+
+<div class="divider"></div>
+
+<!-- ═══ FALSE BELIEFS ═══ -->
+<div class="section">
+  <h2>What you're probably thinking right now.</h2>
+
+  <div class="belief">
+    <div class="objection">"I've tried programs before."</div>
+    <div class="answer">Yeah. Me too. I tried therapy, AA, religion, retreats, books, podcasts, positive affirmations in the mirror. Most of it gave me information. None of it changed my body. This isn't a course you watch. It's a daily protocol you DO. Breathwork, journaling, movement, meditation — your nervous system changes because you show up, not because you consume content.</div>
+  </div>
+
+  <div class="belief">
+    <div class="objection">"I don't have time for this."</div>
+    <div class="answer">20-30 minutes a day. That's it. You get one email every morning at 6 AM. Open it. Do the work. Done. You spend more time scrolling before breakfast. This replaces the scroll, not your schedule.</div>
+  </div>
+
+  <div class="belief">
+    <div class="objection">"This sounds too woo-woo."</div>
+    <div class="answer">I get it. But the Gateway Experience was literally studied by the CIA. Polyvagal theory is taught in medical schools. The ACE Study is one of the largest public health studies ever conducted. The breathwork is based on neuroscience. The meditation uses binaural beat technology. This isn't crystals and sage. It's science wrapped in a daily practice simple enough that my wife — who had zero background in any of this — could follow it.</div>
+  </div>
+
+  <div class="belief">
+    <div class="objection">"How do I know this actually works?"</div>
+    <div class="answer">Because I built it for myself first. After dying. After a week-long coma. After overdosing 4 times. I didn't build this to sell it. I built it because I needed it to survive. And then other people tried it and it worked for them too. But don't take my word for it — it's $47 with a full money-back guarantee. You've got nothing to lose except the pattern.</div>
+  </div>
+</div>
+
+<div class="divider"></div>
+
+<!-- ═══ 30-DAY BREAKDOWN ═══ -->
+<div class="section">
+  <h2>What Happens in 30 Days</h2>
+
+  <div class="week">
+    <div class="label">Week 1 &mdash; Days 1-7</div>
+    <h4>Stabilize</h4>
+    <p>Name your pattern. Build the morning anchor. Start breathwork. Meet your shadow. Get honest for the first time. Most people feel a shift by Day 3.</p>
+  </div>
+  <div class="week">
+    <div class="label">Week 2 &mdash; Days 8-14</div>
+    <h4>Deconstruct</h4>
+    <p>Tear down old programming. Fix your gut. Reset dopamine. Forgiveness work. Inner child. This is the hard stuff. This is also the stuff that actually sets you free.</p>
+  </div>
+  <div class="week">
+    <div class="label">Week 3 &mdash; Days 15-23</div>
+    <h4>Install</h4>
+    <p>New morning ritual. Clean fuel. Movement. Gratitude rewiring. Vision casting. The Gateway Experience goes deep here. This is where people say "something clicked."</p>
+  </div>
+  <div class="week">
+    <div class="label">Week 4 &mdash; Days 24-30</div>
+    <h4>Expand</h4>
+    <p>Intuition. Manifestation. Service. Lock in the new identity. You don't go back after this. The pattern is broken.</p>
+  </div>
+
+  <p class="p" style="font-size:14px;color:var(--mute);text-align:center;margin-top:16px">And on Day 17, something happens that most people don't see coming. I won't spoil it. But it's the day most people say everything shifted.</p>
+
+  <div style="background:var(--bg2);border-radius:12px;padding:24px;margin-top:20px;border-left:3px solid var(--gold)">
+    <h3 style="font-size:17px">Every morning at 6 AM, you get one email.</h3>
+    <p class="p-sm">5 things inside: Morning protocol. Daily education. Daily action. Guided video. Evening reflection.</p>
+    <p class="p-bold" style="font-size:15px;margin-bottom:0">Open. Do the work. Show up for 30 days. That's it.</p>
+  </div>
+</div>
+
+<!-- ═══ ACRONYM (after breakdown — now it makes sense) ═══ -->
+<div style="text-align:center;padding:24px 0">
+  <p style="font-size:12px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--gold);margin-bottom:12px">The Framework</p>
   <div class="acronym">
     <div class="acr-card"><span class="acr-letter">F</span><span class="acr-word">Feel it</span></div>
     <div class="acr-card"><span class="acr-letter">R</span><span class="acr-word">Reset it</span></div>
@@ -157,81 +277,6 @@ h3{font-family:'DM Serif Display',serif;font-size:clamp(20px,4vw,26px);line-heig
 
 <div class="divider"></div>
 
-<!-- ═══ PROBLEM BRIDGE ═══ -->
-<div class="section">
-  <h2>Here's the truth nobody tells you.</h2>
-  <p style="font-size:16px;color:var(--dim);line-height:1.8;margin-bottom:16px">That quiz result you just got? The clarity you feel right now?</p>
-  <p style="font-size:16px;color:var(--dim);line-height:1.8;margin-bottom:16px">It fades. Give it 48 hours. You'll go right back to the same loops. Same reactions. Same 3 AM thoughts.</p>
-  <p style="font-size:16px;color:var(--dim);line-height:1.8;margin-bottom:16px">Not because you're weak. Because the pattern's been running your nervous system since before you could spell your own name.</p>
-  <p style="font-size:16px;color:var(--txt);line-height:1.8;font-weight:600;margin-bottom:8px">You've got two choices:</p>
-  <p style="font-size:15px;color:var(--dim);line-height:1.8">1. Try to figure it out alone and watch the awareness fade by Thursday.<br>2. Follow a 30-day guided protocol built for your specific pattern.</p>
-</div>
-
-<div class="divider"></div>
-
-<!-- ═══ 4 TYPES ═══ -->
-<div class="section">
-  <h2>The 4 Survival Patterns</h2>
-  <p style="font-size:15px;color:var(--dim);margin-bottom:20px">Your nervous system picked one of these before age 7. It's still running.</p>
-  <div class="types">
-    <div class="type-card t-fixer">
-      <h4>The Fixer</h4>
-      <div class="response">Fight</div>
-      <p>You fix everyone else. You can't sit still. You need to be needed.</p>
-    </div>
-    <div class="type-card t-busy">
-      <h4>The Busy One</h4>
-      <div class="response">Flight</div>
-      <p>You stay busy so you don't have to feel. If you stop, everything catches up.</p>
-    </div>
-    <div class="type-card t-quiet">
-      <h4>The Quiet One</h4>
-      <div class="response">Freeze</div>
-      <p>You disappear. You shut down. People think you're calm. You're not calm. You're gone.</p>
-    </div>
-    <div class="type-card t-pleaser">
-      <h4>The People Pleaser</h4>
-      <div class="response">Fawn</div>
-      <p>Everyone comes to you. Nobody asks how you're doing. And you never bring it up.</p>
-    </div>
-  </div>
-</div>
-
-<div class="divider"></div>
-
-<!-- ═══ 30-DAY BREAKDOWN ═══ -->
-<div class="section">
-  <h2>What Happens in 30 Days</h2>
-
-  <div class="week">
-    <div class="label">Week 1 &mdash; Days 1-7</div>
-    <h4>Stabilize</h4>
-    <p>Name your pattern. Build the morning anchor. Start breathwork. Meet your shadow. Get honest for the first time.</p>
-  </div>
-  <div class="week">
-    <div class="label">Week 2 &mdash; Days 8-14</div>
-    <h4>Deconstruct</h4>
-    <p>Tear down old programming. Fix your gut. Reset dopamine. Forgiveness work. Inner child. The hard stuff that sets you free.</p>
-  </div>
-  <div class="week">
-    <div class="label">Week 3 &mdash; Days 15-23</div>
-    <h4>Install</h4>
-    <p>New morning ritual. Clean fuel. Movement. Gratitude rewiring. Vision casting. The Gateway Experience goes deep.</p>
-  </div>
-  <div class="week">
-    <div class="label">Week 4 &mdash; Days 24-30</div>
-    <h4>Expand</h4>
-    <p>Intuition. Manifestation. Service. Lock in the new identity. You don't go back. The pattern is broken.</p>
-  </div>
-
-  <div class="card" style="margin-top:20px;border-left:3px solid var(--gold)">
-    <h4>Every morning at 6 AM, you get one email.</h4>
-    <p>5 things inside: Morning protocol. Daily education. Daily action. Guided video. Evening reflection.<br><br><strong>Open. Do the work. Show up for 30 days. That's it.</strong></p>
-  </div>
-</div>
-
-<div class="divider"></div>
-
 <!-- ═══ BEFORE / AFTER ═══ -->
 <div class="section">
   <h2>What Changes</h2>
@@ -239,23 +284,23 @@ h3{font-family:'DM Serif Display',serif;font-size:clamp(20px,4vw,26px);line-heig
     <div class="ba-col ba-before">
       <h4>Before</h4>
       <ul>
-        <li>Anxious mornings, tired but wired</li>
-        <li>Same fights, same reactions, same loops</li>
-        <li>Brain fog, can't focus</li>
+        <li>Wake up and your first thought is dread</li>
+        <li>Same fights. Same reactions. Same loops.</li>
+        <li>Brain fog. Can't focus. Can't start things.</li>
         <li>Numbing with food, scrolling, whatever works</li>
-        <li>Saying "I'm fine" when you're not</li>
-        <li>3 AM thoughts on repeat</li>
+        <li>Saying "I'm fine" to everyone including yourself</li>
+        <li>3 AM thoughts that won't shut up</li>
       </ul>
     </div>
     <div class="ba-col ba-after">
       <h4>After 30 Days</h4>
       <ul>
-        <li>Calm mornings, actually rested</li>
-        <li>New responses &mdash; the pattern doesn't run you</li>
-        <li>Clear head, present</li>
-        <li>Choosing what you consume</li>
-        <li>Saying what you actually feel</li>
-        <li>Sleeping through the night</li>
+        <li>Wake up before the alarm. No dread. Just ready.</li>
+        <li>Someone triggers you and you just... breathe.</li>
+        <li>Clear head. Present. Actually here.</li>
+        <li>Choosing what you put in your body and mind</li>
+        <li>Saying what you actually feel. Out loud.</li>
+        <li>Sleeping through the night like a human being</li>
       </ul>
     </div>
   </div>
@@ -266,45 +311,69 @@ h3{font-family:'DM Serif Display',serif;font-size:clamp(20px,4vw,26px);line-heig
   Picture this.<br><br>
   30 days from now. You wake up before the alarm. Not tired. Not dreading. Just... ready.<br><br>
   The anxiety is quiet. The old reactions are gone. Someone says something that used to wreck your whole day &mdash; and you just breathe.<br><br>
-  You feel like you. Maybe for the first time.<br><br>
-  That's not some fantasy. That's what happens when you break a pattern that's been running since childhood.
+  You feel like you. Maybe for the first time in your life.<br><br>
+  That's not some fantasy. That's what happens when you stop running the old program and start running yours.
 </div>
 
 <div class="cta-wrap" style="margin:40px 0">
-  <a href="https://link.thedylanewing.com/payment-link/69b165652b0a35cb24607fbb" class="btn">Get Freedom Code &mdash; $47 &rarr;</a>
+  <a href="https://link.thedylanewing.com/payment-link/69b165652b0a35cb24607fbb" class="btn">I'm Ready &mdash; $47 &rarr;</a>
+  <span class="btn-note">Most people feel a shift by Day 3.</span>
 </div>
 
 <div class="divider"></div>
 
-<!-- ═══ NDE STORY ═══ -->
+<!-- ═══ NDE STORY — THE REAL ONE ═══ -->
 <div class="section">
   <h2>Why I Built This</h2>
   <div class="story">
-    <p>My heart stopped. I left my body. I came back different.</p>
-    <p>I overdosed 4 times in 4 months. Crashed my car into a telephone pole going 70 miles an hour. Walked away without a scratch. Went into a week-long coma.</p>
-    <p>And somewhere in that coma &mdash; I left.</p>
-    <p>I can't fully explain what I saw. But I can tell you this: everything I thought was real &mdash; the stress, the fear, the running, the numbing &mdash; none of it mattered on the other side.</p>
-    <p>What mattered was love. Connection. Being present. The stuff I'd been running from my entire life.</p>
-    <p>When I came back, I couldn't go back to normal. I got sober. Did the real work. Breathwork. Meditation. Shadow work. Nervous system education. I found the Monroe Institute's Gateway Experience &mdash; the same consciousness program the CIA studied for decades &mdash; and I learned how to access intentionally what I'd experienced involuntarily.</p>
-    <p>Piece by piece, I built a protocol. Tested it on myself. Shared it with others. It worked.</p>
+    <p>I grew up in a small town in the mountains of Pennsylvania. Parents divorced. Dad was an addict — died when I was about 8. I became the class clown. Laughing on the outside. Confused and angry on the inside. Never told anyone how I felt.</p>
+
+    <p>I ran away from home. Ended up homeless. Joined the military. Deployed to Iraq. Lost a child. Built a business. Built the "perfect life" — house by the beach, successful company, nice cars, everything you're supposed to want.</p>
+
+    <p>Behind closed doors? I was a wreck. I was a master at wearing a mask. Addicted to everything. Trying to fill a hole inside that was so deep and so wide with everything outside of myself. And nobody knew. Because I was really, really good at pretending.</p>
+
+    <p class="dramatic">Why. Can't. I. Change.</p>
+
+    <p>That question ate me alive for years. I knew what to do. I'd read the books. Done the programs. Said "I'm done" a thousand times. But the body-mind is a machine. It wants to survive. It wants to do the same thing tomorrow that it did yesterday. And it does NOT want you to change.</p>
+
+    <p>Then I almost died. Four times. In four months.</p>
+
+    <p>I overdosed. Again and again. I drove my car into a telephone pole going 70 miles an hour and walked away without a scratch. Then I went into a week-long coma on full life support.</p>
+
+    <p>And somewhere in that coma — I left my body.</p>
+
+    <p>I can't fully explain what I saw. What I can tell you is this: I felt a love and a freedom so intense that everything I'd ever experienced on Earth felt like a shadow of it. Like I'd been watching life through a dirty window and someone finally cleaned it.</p>
+
+    <p>I saw that we're not our patterns. We're not our thoughts. We're not the mask we wear. If I say "Batman" in your head right now — who heard that? You're the awareness behind the thoughts. The observer. And that awareness can change everything.</p>
+
+    <p>When I came back, I couldn't live the old life anymore. I got sober — 8 years now, zero desire. I walked away from a million-dollar business. I left everything. Not because I wanted to blow up my life. Because the old life wasn't mine anymore. It was the pattern's.</p>
+
+    <p>I spent years studying what happened to me. Found the Monroe Institute's Gateway Experience — the same consciousness technology the CIA studied in declassified documents. Found Dr. Joe Dispenza's work on rewiring the brain. Went to retreats. Left my body again in a 2-hour meditation. Realized this wasn't magic — it was science wrapped in something most people are too scared to try.</p>
+
+    <p>So I built a protocol. Daily. Simple. Everything I learned from dying, coming back, getting sober, and rebuilding from zero. Breathwork. Shadow work. Nervous system education. Gateway Experience. Journaling. Movement. Nutrition. Presence.</p>
+
+    <p>I tested it on myself. Then I shared it. And it worked.</p>
+
     <p>That protocol became Freedom Code.</p>
+
     <p>I'm not a guru on a mountain. I'm a guy who almost died, woke up, and built the thing I wish someone gave me 10 years ago.</p>
+
     <p class="sig">&mdash; Dylan</p>
   </div>
 </div>
 
 <div class="divider"></div>
 
-<!-- ═══ VALUE STACK ═══ -->
+<!-- ═══ VALUE STACK (Brunson-named) ═══ -->
 <div class="section">
   <h2>What You Get</h2>
   <div style="margin:20px 0">
-    <div class="stack-item"><span class="name">30-Day Guided Transformation Protocol</span><span class="val">$297</span></div>
-    <div class="stack-item"><span class="name">Daily Breathwork + Meditation Protocols</span><span class="val">$97</span></div>
-    <div class="stack-item"><span class="name">Gateway Experience Integration</span><span class="val">$97</span></div>
-    <div class="stack-item"><span class="name">Pattern-Specific Day 1 Reset PDF</span><span class="val">$47</span></div>
-    <div class="stack-item"><span class="name">Daily Guided Videos</span><span class="val">$97</span></div>
-    <div class="stack-item"><span class="name">Lifetime Access + All Future Updates</span><span class="val" style="text-decoration:none;color:var(--gold)">Priceless</span></div>
+    <div class="stack-item"><span class="name">The Pattern Breaker Protocol<span class="sub">30 days of guided daily transformation</span></span><span class="val">$297</span></div>
+    <div class="stack-item"><span class="name">The Morning Anchor System<span class="sub">Breathwork + meditation sequences</span></span><span class="val">$97</span></div>
+    <div class="stack-item"><span class="name">The Gateway Integration Guide<span class="sub">CIA-studied consciousness tech, made simple</span></span><span class="val">$97</span></div>
+    <div class="stack-item"><span class="name">YOUR Day 1 Reset<span class="sub">Pattern-specific PDF for immediate relief</span></span><span class="val">$47</span></div>
+    <div class="stack-item"><span class="name">The Shadow Work Library<span class="sub">30 guided video lessons</span></span><span class="val">$97</span></div>
+    <div class="stack-item"><span class="name">Lifetime Access + All Future Updates<span class="sub">Including video walkthroughs when they drop</span></span><span class="val" style="text-decoration:none;color:var(--gold)">Priceless</span></div>
   </div>
   <div class="stack-total">
     <span class="name">$635+ value</span>
@@ -317,16 +386,17 @@ h3{font-family:'DM Serif Display',serif;font-size:clamp(20px,4vw,26px);line-heig
   <div style="max-width:400px;margin:0 auto">
     <div class="anchor-item">One therapy session <span>$150</span></div>
     <div class="anchor-item">A weekend retreat <span>$1,500</span></div>
-    <div class="anchor-item">Monroe Institute Gateway Experience <span>$500+</span></div>
+    <div class="anchor-item">Monroe Institute Gateway Voyage <span>$3,000+</span></div>
     <div class="anchor-item">Dr. Dispenza Progressive Course <span>$299</span></div>
-    <div class="anchor-item anchor-hl">30 days of guided transformation <span>$47</span></div>
+    <div class="anchor-item anchor-hl">Freedom Code — 30 days <span>$47</span></div>
   </div>
-  <p style="text-align:center;font-size:14px;color:var(--dim);margin-top:16px">Less than dinner out. Less than a month of streaming. Less than one copay.</p>
+  <p style="text-align:center;font-size:14px;color:var(--dim);margin-top:16px">Less than dinner out. Less than streaming for a month. Less than one copay.</p>
+  <p style="text-align:center;font-size:13px;color:var(--mute);margin-top:8px">This price goes up when video walkthroughs are added. Right now you get everything — including future updates — for $47.</p>
 </div>
 
 <div class="cta-wrap" style="margin:40px 0">
   <a href="https://link.thedylanewing.com/payment-link/69b165652b0a35cb24607fbb" class="btn">Get Freedom Code &mdash; $47 &rarr;</a>
-  <span class="btn-note">Most people feel different by Day 3.</span>
+  <span class="btn-note">30-day money-back guarantee. No questions asked.</span>
 </div>
 
 <div class="divider"></div>
@@ -334,22 +404,47 @@ h3{font-family:'DM Serif Display',serif;font-size:clamp(20px,4vw,26px);line-heig
 <!-- ═══ COST OF INACTION ═══ -->
 <div class="section">
   <h2>Here's What Happens If You Do Nothing</h2>
-  <p style="font-size:16px;color:var(--dim);line-height:1.85;margin-bottom:16px">The pattern doesn't take a day off.</p>
-  <p style="font-size:16px;color:var(--dim);line-height:1.85;margin-bottom:16px">Tomorrow morning, it'll be there. Making the same decisions. Picking the same fights. Avoiding the same conversations. Running the same loops.</p>
-  <p style="font-size:16px;color:var(--dim);line-height:1.85;margin-bottom:16px">6 months from now &mdash; same anxiety, same 3 AM thoughts, same "why do I keep doing this."</p>
-  <p style="font-size:16px;color:var(--txt);line-height:1.85;font-weight:600">The pattern took years to build. It takes 30 days to break. But only if you start.</p>
+  <p class="p">The pattern doesn't take a day off.</p>
+  <p class="p">Tomorrow morning, it'll be there. Making the same decisions. Picking the same fights. Avoiding the same conversations. Running the same loops.</p>
+  <p class="p">6 months from now — same anxiety, same 3 AM thoughts, same "why do I keep doing this."</p>
+  <p class="p">The awareness you feel right now from reading this? It fades. Give it 48 hours. The pattern wins again. Not because you're weak. Because that's what it does. It's a machine. And it runs on autopilot until someone pulls the plug.</p>
+  <p class="p-bold">The pattern took years to build. It takes 30 days to break. But only if you start.</p>
+</div>
+
+<div class="divider"></div>
+
+<!-- ═══ WHO THIS IS NOT FOR ═══ -->
+<div class="section">
+  <h2>This Is Not For Everyone</h2>
+  <p class="p">If you want a magic pill — this isn't it. There's no hack. No shortcut. No "manifest while you sleep" nonsense.</p>
+  <p class="p">This is 20-30 minutes of daily work. Breathwork. Journaling. Facing things you've been running from. It's simple, but it's not easy.</p>
+  <p class="p-bold">This IS for people who are done talking about changing and ready to actually do it. One morning at a time. For 30 days.</p>
 </div>
 
 <div class="divider"></div>
 
 <!-- ═══ COMMITMENT ESCALATION + FINAL CTA ═══ -->
 <div class="section" style="text-align:center">
-  <p style="font-size:16px;color:var(--dim);margin-bottom:8px">You already took step one when you took the quiz.</p>
-  <p style="font-size:16px;color:var(--dim);margin-bottom:8px">Step two when you read your results.</p>
-  <p style="font-size:18px;color:var(--txt);font-weight:700;margin-bottom:24px">This is step three.</p>
-  <p style="font-size:16px;color:var(--dim);margin-bottom:32px;line-height:1.8">In 30 days, you're not someone who's stuck. You're someone who broke the pattern. You're not running the old program. You're running YOUR program.</p>
+  <p class="p">You already took step one when you found this page.</p>
+  <p class="p">If you took the quiz, you already know your pattern.</p>
+  <p class="p-bold" style="font-size:18px">This is the next step.</p>
+  <p class="p" style="margin-bottom:32px">In 30 days, you're not someone who's stuck. You're someone who broke the pattern. You're not running the old program. You're running YOUR program.</p>
   <a href="https://link.thedylanewing.com/payment-link/69b165652b0a35cb24607fbb" class="btn">Get Freedom Code &mdash; $47 &rarr;</a>
-  <span class="btn-note">30-day money-back guarantee. If it doesn't work, you get your money back. No questions.</span>
+  <span class="btn-note">30-day money-back guarantee. Do the work. If you don't feel different, I'll give you your money back. No questions.</span>
+</div>
+
+<div class="divider"></div>
+
+<!-- ═══ VALUE LADDER ═══ -->
+<div class="section">
+  <h2>Where This Fits</h2>
+  <p class="p-sm">Freedom Code is step one. Do the 30 days. Break the pattern. Then if you want to go deeper:</p>
+  <div class="ladder">
+    <div class="ladder-step ladder-here"><div class="marker">1</div><div><strong>Freedom Code</strong> — 30-day self-guided protocol &mdash; $47</div></div>
+    <div class="ladder-step ladder-future"><div class="marker">2</div><div>Freedom Code Group — live calls + community &mdash; coming soon</div></div>
+    <div class="ladder-step ladder-future"><div class="marker">3</div><div>Freedom Code Immersion — small group retreat &mdash; coming soon</div></div>
+  </div>
+  <p class="p-sm" style="text-align:center;margin-top:12px">You don't need to think about steps 2 and 3 right now. Step 1 is enough.</p>
 </div>
 
 <div class="divider"></div>
@@ -359,29 +454,24 @@ h3{font-family:'DM Serif Display',serif;font-size:clamp(20px,4vw,26px);line-heig
   <h2>Questions</h2>
   <div class="faq-item">
     <div class="faq-q" onclick="this.parentElement.classList.toggle('open')">What exactly do I get?</div>
-    <div class="faq-a">30 daily emails with guided protocols, education, action steps, videos, and evening reflection. Plus your pattern-specific Day 1 Reset PDF. Breathwork, meditation, shadow work, journaling, movement, nutrition &mdash; it's all mapped out for you.</div>
+    <div class="faq-a">30 daily emails with guided protocols, education, action steps, videos, and evening reflection. Plus your pattern-specific Day 1 Reset PDF. Breathwork, meditation, shadow work, journaling, movement, nutrition — it's all mapped out for you. You also get lifetime access to the interactive course portal with built-in timers, journals, and progress tracking.</div>
   </div>
   <div class="faq-item">
     <div class="faq-q" onclick="this.parentElement.classList.toggle('open')">How much time does it take?</div>
-    <div class="faq-a">20-30 minutes a day. Morning email. Do the work. Done. Some days have bonus content if you want to go deeper, but the core protocol is designed for busy people.</div>
-  </div>
-  <div class="faq-item">
-    <div class="faq-q" onclick="this.parentElement.classList.toggle('open')">What if I've tried programs before?</div>
-    <div class="faq-a">This isn't a course you watch. It's a daily protocol you DO. Breathwork, journaling, movement, meditation. Your body changes because you show up, not because you consume content. Most programs give you information. This one gives you a daily assignment.</div>
+    <div class="faq-a">20-30 minutes a day. Morning email. Do the work. Done. Some days have bonus content if you want to go deeper, but the core protocol is designed for real people with real schedules.</div>
   </div>
   <div class="faq-item">
     <div class="faq-q" onclick="this.parentElement.classList.toggle('open')">What's the Gateway Experience?</div>
-    <div class="faq-a">It's a consciousness technology developed by the Monroe Institute and studied by the CIA for decades. It uses specific audio frequencies (Hemi-Sync) to help you access deep meditative states. You don't need to know how it works. You just press play and follow along.</div>
+    <div class="faq-a">It's a consciousness technology developed by the Monroe Institute and studied by the CIA for decades. It uses specific audio frequencies called Hemi-Sync to help your brain access deep meditative states. The CIA literally wrote classified reports on it. You don't need to understand the science. You just press play, put on headphones, and follow along.</div>
+  </div>
+  <div class="faq-item">
+    <div class="faq-q" onclick="this.parentElement.classList.toggle('open')">What if I don't know my pattern?</div>
+    <div class="faq-a">Take the free 3-minute quiz at <a href="https://thedylanewing.com" style="color:var(--gold)">thedylanewing.com</a>. It'll show you which of the 4 survival patterns is running your life. Your Day 1 Reset PDF is customized to your result.</div>
   </div>
   <div class="faq-item">
     <div class="faq-q" onclick="this.parentElement.classList.toggle('open')">Is there a guarantee?</div>
-    <div class="faq-a">Yes. 30 days. If you do the work and don't feel different, email me and I'll refund you. No questions. I built this because it works, not to take your money.</div>
+    <div class="faq-a">30 days. Do the work. If you don't feel different, email me. Full refund. No questions. I didn't build this to take your $47. I built it because I almost died and this is what I came back with.</div>
   </div>
-</div>
-
-<!-- ═══ RESEARCH BAR ═══ -->
-<div class="research-bar" style="margin:24px 0">
-  Built on research from the ACE Study &bull; Polyvagal Theory (Dr. Stephen Porges) &bull; Peter Levine &bull; Monroe Institute Hemi-Sync &bull; Neuroplasticity &bull; Dr. Joe Dispenza &bull; Mary Baker Eddy
 </div>
 
 <!-- ═══ FOOTER ═══ -->
@@ -393,5 +483,13 @@ h3{font-family:'DM Serif Display',serif;font-size:clamp(20px,4vw,26px);line-heig
 
 </div>
 
+<script>
+// Quiz counter (pulls from localStorage or shows nothing)
+(function(){
+  // This could be wired to a real counter via Apps Script later
+  var c = document.getElementById('counter');
+  if(c) c.textContent = '';
+})();
+</script>
 </body>
 </html>
